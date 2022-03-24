@@ -49,8 +49,4 @@ if (process.env.NODE_ENV === 'test') {
 app.use(middleware.unknownEndpoint)
 app.use(middleware.errorHandler)
 
-//to pull backend from
-//https://github.com/villivald/fullstackopen2021/tree/main/part4
-
-
 module.exports = app
